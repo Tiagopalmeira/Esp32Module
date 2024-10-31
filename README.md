@@ -1,4 +1,4 @@
-# Projeto SENAIPROJECT
+# Projeto ESP32Module
 
 Este projeto utiliza um ESP32 para configurar uma rede Wi-Fi via uma interface web. O código permite que os usuários conectem o dispositivo a uma rede Wi-Fi e inclui várias funções de teste para garantir a robustez da conexão.
 
