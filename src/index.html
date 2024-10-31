@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Configurar Wi-Fi</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            color: #339966;
+            text-align: center;
+        }
+        p {
+            text-align: center;
+        }
+        .form-container {
+            background: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            padding: 20px;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+        input[type="text"], input[type="password"] {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        input[type="submit"] {
+            background-color: #28a745;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+            font-size: 16px;
+        }
+        input[type="submit"]:hover {
+            background-color: #218838;
+        }
+        .warning {
+            color: #ff0000;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h1><em>Configurar Wi-Fi</em></h1>
+        <p><em>Configure a rede Wi-Fi na qual a placa irá se conectar</em></p>
+        <form action="/submit" method="POST">
+            <label for="ssid">SSID:</label>
+            <input name="ssid" type="text" id="ssid" required />
+
+            <label for="password">Senha:</label>
+            <input name="password" type="password" id="password" required />
+
+            <p class="warning">ATENÇÃO: CERTIFIQUE-SE QUE OS DADOS INSERIDOS ESTÃO CORRETOS ANTES DE CONECTAR.</p>
+            <input type="submit" value="Conectar" />
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,85 @@
+{
+  "id": "f20f0f49-15e4-4f2f-88af-65484f2902c7",
+  "version": "2.0",
+  "name": "Esp32Module",
+  "url": "http://seleniumtest.vercel.app",
+  "tests": [{
+    "id": "51754c80-4aff-437a-ad98-7fcfa8029746",
+    "name": "",
+    "commands": [{
+      "id": "9b3ff3bb-0f71-4a7b-9d00-9ff0048481e2",
+      "comment": "",
+      "command": "open",
+      "target": "https://seleniumtest.vercel.app/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "46d23cb0-801a-4847-a9c8-1b841ea96e3e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x768",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cc9b231c-6e20-49b4-8643-9cffd16c8ef5",
+      "comment": "",
+      "command": "click",
+      "target": "id=ssid",
+      "targets": [
+        ["id=ssid", "id"],
+        ["name=ssid", "name"],
+        ["css=#ssid", "css:finder"],
+        ["xpath=//input[@id='ssid']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d10c245e-7a5b-4781-a280-987d84270eb8",
+      "comment": "",
+      "command": "type",
+      "target": "id=ssid",
+      "targets": [
+        ["id=ssid", "id"],
+        ["name=ssid", "name"],
+        ["css=#ssid", "css:finder"],
+        ["xpath=//input[@id='ssid']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "TesteDeSistemas"
+    }, {
+      "id": "101e6502-abdc-4c1c-b94a-1acced1a3f3f",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "123456789"
+    }, {
+      "id": "611fc93e-67de-476d-ae09-22d96a8fc98b",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(6)",
+      "targets": [
+        ["css=input:nth-child(6)", "css:finder"],
+        ["xpath=//input[@value='Conectar']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "dfed5452-86ba-4204-87d6-5dd922aa0dcd",
+    "name": "",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["51754c80-4aff-437a-ad98-7fcfa8029746"]
+  }],
+  "urls": ["http://seleniumtest.vercel.app/"],
+  "plugins": []
+}
