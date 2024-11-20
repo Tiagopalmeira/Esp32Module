@@ -1,6 +1,6 @@
-#define BLYNK_TEMPLATE_ID "TMPL2QOKIhxvJ"
+#define BLYNK_TEMPLATE_ID "TMPL2QOkkkkkxvJ"
 #define BLYNK_TEMPLATE_NAME "SENAIPROJECT"
-#define BLYNK_AUTH_TOKEN "f7XTX2bgMRgy2WX_udu0VuI"
+#define BLYNK_AUTH_TOKEN "f7XTX2kkkMRgy2WX_udu0kkkI"
 
 #include <WiFi.h>
 #include <WebServer.h>
